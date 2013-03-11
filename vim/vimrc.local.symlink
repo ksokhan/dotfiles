@@ -1,15 +1,17 @@
 set pastetoggle=<F5>           " pastetoggle (sane indentation on pastes)
 set expandtab
 
-set nuw=8
+set spell
+
+set foldcolumn=1
 set t_Co=256
 autocmd BufReadPost * DetectIndent
 
 
 let g:detectindent_preferred_expandtab = 1
 
-" let &t_SI = "\<Esc>]50;CursorShape=1\x7"
-" let &t_EI = "\<Esc>]50;CursorShape=0\x7"
+let &t_SI = "\<Esc>]50;CursorShape=1\x7"
+let &t_EI = "\<Esc>]50;CursorShape=0\x7"
 
 " when insert, highlight line
 autocmd InsertEnter * set cul
@@ -21,4 +23,19 @@ let g:solarized_termtrans=1
 let g:solarized_contrast="low"
 let g:solarized_visibility="low"
 
+highlight LineNr ctermfg=lightgrey
+highlight LineNr ctermbg=white
+highlight NonText ctermfg=bg guifg=bg
+
 nnoremap <CR> :noh<CR><CR>
+
+" map cmd S to save (thorough iterm2 configs)
+" in keyboard shortcuts set cmd + S to hex code: 0x1b 0x4f 0x51
+" then save will work
+imap <F2> <ESC>:update<CR>
+" or this if you want to say in edit mode:
+" imap <F2> <C-O>:update<CR>
+map <F2> :update<CR>
+
+map <c-w> :q<CR>
+
