@@ -87,8 +87,12 @@ then
   fi
 fi
 
-info "installing fonts \n"
-cp $DOTFILES_ROOT/fonts/* ~/Library/Fonts/
+if [[ "$(uname -s)" == "Darwin" ]]
+then
+  info "installing fonts \n"
+  cp $DOTFILES_ROOT/fonts/* ~/Library/Fonts/
+fi
+
 
 if [[ "$TERM" == "xterm-256color" ]]
 then
