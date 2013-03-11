@@ -7,6 +7,9 @@ then
   alias l="gls -lAh --color"
   alias ll="gls -lh --color"
   alias la='gls -Ah --color'
+else
+  alias l="ls -alh"
+  alias ll="ls -lh"
 fi
 
 alias history='fc -l 1'
