@@ -97,5 +97,11 @@ else
   fail "Your \$TERM isn't set to xterm-256color. Set it to that so that vim colours work. see http://stackoverflow.com/questions/7424037/why-dont-git-colors-show-up-in-iterm2"
 fi
 
+
+info "Installing/updating vim config"
+curl http://j.mp/spf13-vim3 -L -o - | sh
+
 echo ''
 echo '  All installed!'
+
+
