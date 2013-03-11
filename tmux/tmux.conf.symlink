@@ -1,0 +1,31 @@
+set -g default-terminal "screen-256color"
+
+set-option -g status on
+set-option -g status-interval 2
+set-option -g status-utf8 on
+set-option -g status-justify "left"
+set-option -g status-left-length 120
+set-option -g status-right-length 80
+set-option -g status-left "#(~/$ZSH/tmux/tmux-powerline/status-left.sh)"
+set-option -g status-right "#(~/$ZSH/tmux/tmux-powerline/status-right.sh)"
+
+# default statusbar colors
+set -g status-fg cyan
+set -g status-bg default
+set -g status-attr bright
+
+set-window-option -g window-status-bg default
+set-window-option -g window-status-attr dim
+
+set-window-option -g window-status-current-bg black
+set-window-option -g window-status-current-fg white
+#set-window-option -g window-status-current-format '#[bg=blue,fg=cyan,bold]#I#[bg=blue,fg=cyan]:#[fg=white]#W#[fg=dim]#F'
+ 
+
+# bind C-[ run "~/$ZSH/mute_statusbar.sh left"     # Mute left statusbar.
+# bind C-] run "~/$ZSH/mute_statusbar.sh right"     # Mute right statusbar.
+
+set -g mode-mouse on
+set -g mouse-resize-pane on
+set -g mouse-select-pane on
+set -g mouse-select-window on

@@ -1,4 +1,16 @@
 {
-	"font_size": 12.0,
-	"theme": "Soda Dark.sublime-theme"
+	"caret_style": "wide",
+	"color_scheme": "Packages/Color Scheme - Default/Solarized (Light).tmTheme",
+	"font_face": "Inconsolata",
+	"font_size": 16.0,
+	"highlight_line": true,
+	"ignored_packages":
+	[
+		"SublimeBlockCursor"
+	],
+	"line_padding_bottom": 2,
+	"line_padding_top": 2,
+	"soda_classic_tabs": true,
+	"sublimelinter_gutter_marks": true,
+	"theme": "Soda Light.sublime-theme"
 }

@@ -1,0 +1,30 @@
+{
+	"auto_upgrade_last_run": 1332182642,
+	"installed_packages":
+	[
+		"Alignment",
+		"AutoFileName",
+		"BufferScroll",
+		"Clipboard History",
+		"CSS Less(ish)",
+		"DetectSyntax",
+		"DocBlockr",
+		"ElasticTabstops",
+		"Git",
+		"HexViewer",
+		"HTML5",
+		"jQuery",
+		"jQuery Snippets pack",
+		"LESS",
+		"LoremIpsum",
+		"Nodejs",
+		"Package Control",
+		"Pretty JSON",
+		"SideBarEnhancements",
+		"Sublime-HTMLPrettify",
+		"SublimeBlockCursor",
+		"SublimeCodeIntel",
+		"Tag",
+		"ZenCoding"
+	]
+}

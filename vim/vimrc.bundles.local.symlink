@@ -1,0 +1,7 @@
+Bundle "ciaranm/detectindent"
+
+Bundle "statianzo/vim-jade"
+Bundle "wavded/vim-stylus"
+
+Bundle "mattn/zencoding-vim"
+Bundle "nathanaelkane/vim-indent-guides"
