@@ -1,2 +1,2 @@
 alias reload!='. ~/.zshrc'
-alias sites='~/Dropbox/Sites'
+alias sites='cd ~/Dropbox/Sites'
