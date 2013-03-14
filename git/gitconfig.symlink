@@ -16,6 +16,8 @@
         co = checkout
         br = branch
         aa = add --all
+        showfiles = show --oneline --name-only
+        df = diff --oneline --name-only
 [color]
         diff = auto
         status = auto
