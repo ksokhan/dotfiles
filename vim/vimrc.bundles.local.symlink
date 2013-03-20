@@ -5,3 +5,5 @@ Bundle "wavded/vim-stylus"
 
 Bundle "mattn/zencoding-vim"
 Bundle "nathanaelkane/vim-indent-guides"
+
+Bundle "editorconfig/editorconfig-vim"

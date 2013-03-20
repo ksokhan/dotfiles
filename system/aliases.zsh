@@ -20,6 +20,8 @@ alias nm="nodemon"
 alias ni="npm install --save"
 alias nls="npm ls"
 
+alias fvr="forever"
+
 # Bundler
 alias b="bundle"
 alias be="bundle exec"
