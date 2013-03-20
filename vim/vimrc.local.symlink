@@ -9,10 +9,6 @@ set shiftround
 set preserveindent
 
 
-" fix tabs showing like they are errors damnit
-set listchars=tab:\ \ ,trail:.
-set list
-
 set spell
 set title
 
@@ -25,21 +21,10 @@ let g:ctrlp_open_new_file = 't'
 "set t_Co=256
 autocmd BufReadPost * DetectIndent
 
-" leader set to \
-let g:spf13_leader='\'
-
 let &t_SI = "\<Esc>]50;CursorShape=1\x7"
 let &t_EI = "\<Esc>]50;CursorShape=0\x7"
 
-" when insert, highlight line
-autocmd InsertEnter * set cul
-autocmd InsertLeave * set nocul
-
 set guifont=Inconsolata:h14,Meslo\ LG\ M\ DZ\ for\ Powerline\:h14,Menlo\ Regular\:h14
-
-let g:solarized_termtrans=1
-let g:solarized_contrast="low"
-let g:solarized_visibility="low"
 
 highlight LineNr ctermfg=lightgrey
 highlight LineNr ctermbg=white
