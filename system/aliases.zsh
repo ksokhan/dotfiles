@@ -37,3 +37,7 @@ alias cd..='cd ..'
 alias cd...='cd ../..'
 alias cd....='cd ../../..'
 alias cd.....='cd ../../../..'
+
+
+# vagrant
+alias v=vagrant
