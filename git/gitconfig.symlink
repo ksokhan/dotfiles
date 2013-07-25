@@ -18,6 +18,7 @@
         aa = add --all
         showfiles = show --oneline --name-only
         df = diff --oneline --name-only
+        d = diff --color-words
         switch = !legit switch \"$@\"
         branches = !legit branches
         sprout = !legit sprout \"$@\"
